@@ -1,0 +1,16 @@
+def godhara_summary():
+    stats = {
+        "City": "Godhara",
+        "District": "Panchmahal",
+        "State": "Gujarat",
+        "Role": "Administrative HQ",
+        "Pincode": 389001,
+        "Rail_Code": "GDA"
+    }
+
+    print(f"--- Fact Sheet: {stats['City']} ---")
+    for key, value in stats.items():
+        print(f"{key:10}: {value}")
+
+if __name__ == "__main__":
+    godhara_summary()
